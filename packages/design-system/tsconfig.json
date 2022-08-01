@@ -1,0 +1,3 @@
+{
+  "extends": "@gus/tsconfig-commons/base.json"
+}

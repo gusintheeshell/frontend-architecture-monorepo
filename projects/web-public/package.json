@@ -13,13 +13,12 @@
     "@gus/utils": "*",
     "next": "^12.1.5",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "@types/node": "^17.0.30",
-    "@types/react": "^18.0.8",
+    "@gus/tsconfig-commons": "*",
     "next-compose-plugins": "^2.2.1",
-    "next-transpile-modules": "^9.0.0",
-    "typescript": "^4.6.4"
+    "next-transpile-modules": "^9.0.0"
   }
 }

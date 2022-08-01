@@ -1,0 +1,6 @@
+{
+  "extends": "@gus/tsconfig-commons/base.json",
+  "devDependencies": {
+    "@gus/tsconfig-commons": "*"
+  }
+}
