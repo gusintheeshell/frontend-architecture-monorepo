@@ -1,5 +1,5 @@
 {
-  "name": "@alura/web-public",
+  "name": "@gus/web-public",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "build": "next build"
   },
   "dependencies": {
+    "@gus/utils": "*",
     "next": "^12.1.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
