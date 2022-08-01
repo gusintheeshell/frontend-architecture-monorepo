@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint './**/*.{ts,tsx}'"
+    "lint": "eslint './**/*.{ts,tsx}'",
+    "test": "jest"
   },
   "devDependencies": {
     "@gus/eslint-commons": "*",
+    "@gus/test-commons": "*",
     "@gus/tsconfig-commons": "*"
   }
 }
