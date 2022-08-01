@@ -24,6 +24,7 @@
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
     "design-system": "yarn workspace @gus/design-system",
+    "test:design-system": "yarn design-system test",
     "utils": "yarn workspace @gus/utils",
     "test:utils": "yarn utils test"
   }
