@@ -1,0 +1,15 @@
+{
+  "name": "@gus/eslint-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "base.js"
+  ],
+  "dependencies": {
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.30.1"
+  }
+}

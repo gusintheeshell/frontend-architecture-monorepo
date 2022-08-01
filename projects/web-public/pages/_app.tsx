@@ -1,5 +1,9 @@
-import type { AppProps } from 'next/app'
-import { createGlobalStyle,     ThemeProvider, DefaultTheme } from 'styled-components'
+import type { AppProps } from "next/app";
+import {
+  createGlobalStyle,
+  ThemeProvider,
+  DefaultTheme,
+} from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     body { 
@@ -7,13 +11,13 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-`
+`;
 
 const theme: DefaultTheme = {
   colors: {
-    primary: '#0070f3'
+    primary: "#0070f3",
   },
-}
+};
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -23,5 +27,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
