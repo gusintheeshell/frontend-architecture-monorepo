@@ -11,6 +11,7 @@
         "web-public": "yarn workspace @gus/web-public",
         "build:web-public": "yarn web-public build",
         "dev:web-public": "yarn web-public dev",
-        "start:web-public": "yarn web start"
+        "start:web-public": "yarn web start",
+        "design-system": "yarn workspace @gus/design-system"
     }
 }
